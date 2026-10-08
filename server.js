@@ -1,4 +1,3 @@
-
 const express = require('express');
 const cors = require('cors');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
@@ -43,3 +42,4 @@ app.post('/api/generate-video', async (req, res) => {
 
 app.listen(PORT, () => {
   console.log('NEXORA Server running on port ' + PORT);
+});
